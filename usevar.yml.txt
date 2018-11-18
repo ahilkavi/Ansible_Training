@@ -1,0 +1,20 @@
+---
+ - hosts: cent
+   vars_files:
+    - var1.yml
+   tasks: 
+    - name: hello world
+      debug: msg="Hello world my number is {{ x }}"
+
+    - name: print  y
+      debug: var=y
+
+    - name: running  "{{ z }}"
+      command: cal
+
+
+
+
+
+
+

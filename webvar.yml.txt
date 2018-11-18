@@ -1,0 +1,21 @@
+---
+ - hosts: cent
+   vars:
+    - x: httpd
+   tasks: 
+    - name: installing  {{ x }}
+      yum: name={{ x }} state=installed 
+
+    - name:  copy from ansible to centos  index.html  home page 
+      copy:  src=/root/index.html dest=/var/www/html/b.html owner=apache mode=644 
+
+    - name:  starting "{{ x }}" web service
+      service: name={{ x }}  state=started  enabled=yes
+
+    - name:  flush current firewall
+      shell:  iptables  -F
+
+
+
+
+

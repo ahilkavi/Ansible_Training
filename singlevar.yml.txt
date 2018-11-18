@@ -1,0 +1,24 @@
+---
+ - hosts: cent
+   vars:
+    - x: httpd
+    - y: cal
+   tasks:
+    - name: installing  "{{ x }}"
+      yum:  name="{{ x }}"  state=installed 
+  
+    - name: starting  "{{ x }}"
+      service:  name="{{ x }}"  state=started enabled=yes
+
+    - name: create one web page
+      copy:  content="Hello ANsible with redhat" dest=/var/www/html/index.html owner=apache mode=0644
+
+    - name: turnning off firewalld
+      command:  iptables -F
+
+    - name: running  command
+      command: "{{ y }}"
+
+
+ 
+   

@@ -1,0 +1,21 @@
+---
+ - hosts: all
+   tasks: 
+    - name: this is my fist block 
+      block: 
+       - name: installing  web server on  redhat based machines 
+         yum: name=httpd state=installed 
+       - name: service web server on  redhat based machines 
+         service: name=httpd state=started
+      when: ansible_distribution == "RedHat" 
+
+    - name: this is my block 2
+      block:
+       - name: installing  web server on ubuntu based machines
+         apt: name=apache2 state=installed 
+       - name: starting  web server on ubuntu based machines
+         service: name=apache2 state=started
+      when: ansible_distribution == "Ubuntu" 
+
+
+

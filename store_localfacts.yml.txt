@@ -1,0 +1,13 @@
+---
+ - hosts: cent
+   tasks: 
+    - name: hello world
+      debug: msg="Hello world with ANSIBLE"
+
+
+ - hosts: localhost
+   tasks: 
+    - name: storing facts in local machine 
+      shell: ansible all -m setup  --tree  /opt/niceidea
+
+

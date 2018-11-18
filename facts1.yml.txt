@@ -1,0 +1,19 @@
+---
+ - hosts: cent   # play1
+   gather_facts: yes
+   tasks: 
+    - name: hostname of current group machine
+      debug: msg="my hostname is  {{ ansible_hostname }}"
+
+    - name: checking RAM 
+      debug: msg="my hostname RAM is  {{ ansible_memtotal_mb }}"
+
+ - hosts: ub   # play2 
+   gather_facts: no
+   tasks: 
+    - name: hostname of current group machine
+      debug: msg="my hostname doesn't need facts gathering"
+
+
+
+

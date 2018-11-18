@@ -1,0 +1,7 @@
+---
+ x: 
+  - httpd
+ y: 
+  - "hello world with apache roles"
+
+# vars file for apache

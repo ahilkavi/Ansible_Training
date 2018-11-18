@@ -1,0 +1,19 @@
+---
+ - hosts: cent
+   tasks: 
+    - name: installing  httpd
+      yum: name=httpd state=installed 
+
+    - name:  copy from ansible to centos  index.html  home page 
+      copy:  src=/root/index.html dest=/var/www/html/b.html owner=apache mode=644 
+
+    - name:  starting  web service
+      service: name=httpd  state=started  enabled=yes
+
+    - name:  flush current firewall
+      shell:  iptables  -F
+
+
+
+
+

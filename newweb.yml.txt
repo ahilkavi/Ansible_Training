@@ -1,0 +1,19 @@
+---
+ - hosts: cent
+   tasks: 
+    - name: installing  httpd
+      yum: name=httpd state=installed 
+
+    - name:  copy from any URL  to centos  index.html  home page 
+      get_url: url=http://192.168.10.254/pages/port.html  dest=/var/www/html/a.html
+
+    - name:  starting  web service
+      service: name=httpd  state=started  enabled=yes
+
+    - name:  flush current firewall
+      shell:  iptables  -F
+
+
+
+
+

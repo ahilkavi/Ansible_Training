@@ -1,0 +1,19 @@
+---
+ - name: installing  "{{ x }}"
+   yum: name="{{ x }}"
+
+ - name: starting service
+   service: name=httpd state=started enabled=yes
+
+ - name: creating file 
+   copy: content="{{ y }}" dest=/var/www/html/role.html owner=apache mode=0644
+
+ - name: copy file a.html
+   copy: src=a.html  dest=/var/www/html 
+ 
+ - name: changin in configuration file
+   lineinfile: line="Timeout 200" dest=/etc/httpd/conf/httpd.conf 
+   notify:
+    - startit
+ 
+# tasks file for apache

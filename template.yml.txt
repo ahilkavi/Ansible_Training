@@ -1,0 +1,11 @@
+---
+ - hosts: cent
+   tasks: 
+    - name: hello world
+      debug: msg="Hello world with ANSIBLE"
+  
+    - name:  creting  nfs configure file 
+      template: src=nfs.j2 dest=/etc/exports
+
+
+

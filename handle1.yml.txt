@@ -1,0 +1,27 @@
+---
+ - hosts: cent
+   tasks: 
+    - name: installing httpd
+      yum: name=httpd
+      notify:
+       - ok
+ 
+    - name: start http 
+      service: name=httpd  state=started  
+
+    - name:  making  changes in  httpd config file 
+      lineinfile:  line="Timeout  100"  dest=/etc/httpd/conf/httpd.conf 
+      notify:
+       - got_changes
+
+   handlers:
+    - name: got_changes
+      service: name=httpd  state=restarted 
+
+    - name: ok
+      debug: msg="ooookkkkkkkkkkkkk"
+
+
+
+
+

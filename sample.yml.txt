@@ -1,0 +1,9 @@
+---
+ - hosts: cent
+   gather_facts: no
+   tasks: 
+    - name: hello world
+      debug: msg="Hello world with ANSIBLE"
+
+
+

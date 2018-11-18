@@ -1,0 +1,936 @@
+    1  df
+    2  df  -hT
+    3  cd
+    4  umount /dev/sdb1
+    5  fdisk  -l
+    6  yum  install ntfs*
+    7  vim /etc/yum.repos.d/adhoc.repo 
+    8  yum  install ntfs*
+    9  mkfs.ntfs   /dev/sdb1
+   10  wget ftp://192.168.10.254/pub/hadoop2dnd.qcow2
+   11  virt-manager 
+   12  df -h
+   13  free -m
+   14  rpm -ivh wget https://downloads.lightbend.com/scala/2.12.6/scala-2.12.6.rpm
+   15  rpm -ivh https://downloads.lightbend.com/scala/2.12.6/scala-2.12.6.rpm
+   16   wget http://www-us.apache.org/dist/spark/spark-2.3.1/spark-2.3.1-bin-hadoop2.7.tgz
+   17  tar -xvf  spark-2.3.1-bin-hadoop2.7.tgz
+   18  mv spark-2.3.1-bin-hadoop2.7 /spark
+   19  vim ~/.bashrc
+   20  source ~/.bashrc
+   21  vim ~/.bashrc
+   22  source ~/.bashrc
+   23  vim ~/.bashrc
+   24  source ~/.bashrc
+   25  spark-shell 
+   26  ssh 192.168.10.229
+   27  ssh 192.168.10.118
+   28  ssh ssh 192.168.10.117
+   29   ssh 192.168.10.117
+   30  echo > ifjvcj
+   31  vim vijay.txt
+   32  echo  jdjdj > ih.txt
+   33  vim ih.txt
+   34  cal
+   35  cal > cal.txt
+   36  vim cal.txt
+   37  date > cal.txt
+   38  vim cal.txt
+   39  cal >> cal.txt
+   40  vim cal.txt
+   41  clear
+   42  echo vijay >bh,txt
+   43  echo vijay >bh.txt
+   44  vim bh.txt
+   45  echo fnoioriommmmimtrommomhomhnm,h  >>  bh.txt
+   46  vim bh.txt
+   47  cal >n.txt
+   48  vim >n.txt
+   49  vim n.txt
+   50  cal >n.txt
+   51  vim n.txt
+   52  cat n.txt 
+   53  grep root
+   54  pwd
+   55  tar -jvf pp.targzip /home/uv/
+   56  tar -jvf pp.targzip /home/uv/
+   57  tar -jvf pp.targzip /home/
+   58  tar -cjvf pp.tar.gzip /home/
+   59  ls
+   60  tar -czvf spp.tar.bzip2 /home/
+   61  ls
+   62  tar -xzvf spp.tar.bzip2 
+   63  tar -xvf spp.tar.bzip2 
+   64  ls
+   65  tar -xvf pp.tar.gzip
+   66  ls
+   67  tar -czvf spp.tar.bzip2 /home/
+   68  tar -tvf ssp.tar
+   69  tar -tvf spp.tar.bzip2
+   70  tar -tvf spp.tar\
+   71  tar -tvf spp.tar
+   72  clear
+   73  ifconfig 
+   74  touch mm
+   75  ls
+   76  ls -a
+   77  ls -l
+   78  chmod 777 mm
+   79  ls-l
+   80  ls -l
+   81  chmod 123
+   82  chmod 123 mm
+   83  ls -l
+   84  mkdir vijay
+   85  ls-l
+   86  ls -l
+   87  chmod 777 vijay
+   88  ls -l
+   89  vim jf
+   90  chmod 777 jf
+   91  ls -l
+   92  chmod -rwx jf
+   93  ls -l
+   94  clear
+   95  user add
+   96  useradd vijay
+   97  useradd adi
+   98  su vijay
+   99  mkdir /home/vijay gd
+  100  mkdir /home/vijay/gd
+  101  su - vijay
+  102  setfacl -m u:ady:rwx /home/vijay
+  103  setfacl -m u:vijay:rwx /home/ady
+  104  touch fn
+  105  setfacl -m u:vijay:rwx fn
+  106  ls-l
+  107  ls -l
+  108  clear
+  109  chmod 777 ln
+  110  chmod 777 fn
+  111  ls -l
+  112  sgid 
+  113  sginfo 
+  114  claer
+  115  chmiod g+s fn/
+  116  chmod g+s fn
+  117  ls -l
+  118  chgrp vijay fn 
+  119  ls -ld fn
+  120  chmod g+s fn
+  121  ls -ld fn
+  122  touch vj
+  123  ch
+  124  chgrp vijay vj 
+  125  setfacl -m u:vijay:rwx /home/vijay
+  126  ls -ld /vj
+  127  ls 
+  128  ls -l /vj
+  129  ls -ld vj
+  130  setfacl -m u:vijay:rwx /home/adi/
+  131  su - vijay 
+  132  cd /home/
+  133  ls
+  134  setfacl -b adi/
+  135  setfacl -m u:vijay:rx /home/adi/
+  136  getfacl  adi/
+  137  su - vijay 
+  138  history
+  139  15
+  140  ls -ld fn
+  141  su - vijay 
+  142  ls -ld fn
+  143  setfacl -m u:vijay:rwx /home/vijay
+  144  setfacl -m u:vijay:rwx /home/ADI
+  145  setfacl -m u:vijay:rwx /home/adi
+  146  su -vijay
+  147  su - vijay .
+  148  cat  /etc/redhat-release 
+  149  pip 
+  150  yum   install  python-pip  
+  151  pip  install ansible
+  152  ansible --version
+  153  cd  /etc/yum.repos.d/
+  154  ls
+  155  vim  ansible.repo
+  156  cd
+  157  yum  install  ansible
+  158  ansible --version
+  159  vim    /etc/ansible/ansible.cfg 
+  160  ping  192.168.10.229
+  161  ssh   root@192.168.10.229
+  162  ssh-keygen  
+  163  ssh-copy-id    192.168.10.229
+  164  ssh   root@192.168.10.229  
+  165  history 
+  166  virsh list
+  167  free  -m
+  168  yum remove glibv
+  169  yum remove glibc
+  170  yum  remove yum
+  171  yum  remove python
+  172  yum  remove httpd
+  173  yum  remove openssh-server
+  174  clear
+  175  localectl  list-keymaps 
+  176  localectl  list-keymaps   |   grep -i en
+  177  localectl  status 
+  178  free  -m
+  179  virsh list
+  180  vim  docker-image-tool.sh 
+  181  which docker-image-tool.sh 
+  182  vim /spark/bin/docker-image-tool.sh 
+  183  docker-image-tool.sh 
+  184  chmod -x /spark/bin/docker-image-tool.sh 
+  185  clear
+  186  vim /etc/yum.repos.d/adhoc.repo 
+  187  yum install docker 
+  188  ifconfig 
+  189  systemctl enable --now docker
+  190  docker version
+  191  systemctl  status docker
+  192  vim /usr/lib/systemd/system/docker.service 
+  193  vim /etc/sysconfig/docker-storage
+  194  vim /etc/sysconfig/docker-storage-setup 
+  195  clear
+  196  docker images
+  197  ocsptool 
+  198  virt-manager 
+  199  systemctl status firewalld
+  200  cat /etc/yum.repos.d/adhoc.repo 
+  201  ansible  --version
+  202  clear
+  203  cd  /etc/ansible/
+  204  ls
+  205  vim hosts 
+  206  ls
+  207  vim ansible.cfg 
+  208  virsh list
+  209  ping   192.168.10.114
+  210  ping   192.168.10.118
+  211  ping   192.168.10.127
+  212  ssh  192.168.10.114
+  213  ssh  192.168.10.118
+  214  ssh  192.168.10.127
+  215  ssh-keygen 
+  216  ssh-copy-id   192.168.10.118
+  217  ssh    192.168.10.118
+  218  history 
+  219  pwd
+  220  ls
+  221  cp  hosts  hosts.bak
+  222  >hosts
+  223  vim hosts
+  224  cd
+  225  ls
+  226  ansible  web  -m ping
+  227  ansible  all  -m  command -a  "date"
+  228  ansible  web  -m  yum  -a  "name=telnet state=installed"
+  229  ansible  web  -m  yum  -a  "name=telnet state=absent"
+  230  history 
+  231  cd  /etc/ansible/
+  232  ls
+  233  pwd
+  234  ls
+  235  mkdir  playbook
+  236  ls
+  237  cd  playbook/
+  238  ls
+  239  vim  apache_setup.yml
+  240  vim  sample.yml
+  241  ansible-playbook  --syntax-check sample.yml 
+  242  ansible-playbook   sample.yml 
+  243  vim  sample.yml
+  244  cp  sample.yml   apache_setup.yml 
+  245  vim  apache_setup.yml 
+  246  ansible-doc  yum 
+  247  vim apache_setup.yml 
+  248  cp  apache_setup.yml   newwayplay.yml
+  249  vim newwayplay.yml 
+  250  cat  apache_setup.yml   
+  251  cat  newwayplay.yml 
+  252  ansible-playbook --syntax-check  newwayplay.yml 
+  253  ansible-playbook  newwayplay.yml 
+  254  ls
+  255  vim  apache_setup.yml 
+  256  ansible-playbook -v  apache_setup.yml 
+  257  ls
+  258  vim   ashutoshh.html
+  259  vim  apache_setup.yml 
+  260  ansible-playbook  apache_setup.yml 
+  261  ansible-doc copy
+  262  ansible-playbook  apache_setup.yml 
+  263  ls
+  264  vim ashutoshh.html 
+  265  ansible-playbook  apache_setup.yml 
+  266  history 
+  267  cat  apache_setup.yml 
+  268  vim apache_setup.yml 
+  269  ansible-doc  get_url
+  270  vim apache_setup.yml 
+  271  ansible-playbook  apache_setup.yml 
+  272  vim  apache_setup.yml 
+  273  date
+  274  vim   task9nov_2018.txt
+  275  cat  task9nov_2018.txt 
+  276  ls
+  277  git clone  https://github.com/redashu/t_ansible
+  278  ls
+  279  cp  *yml  *.html *.txt  t_ansible/
+  280  cd  t_ansible/
+  281  ls
+  282  git add .
+  283  git commit -m  "half session " .
+  284  git push origin msater
+  285  git push origin master
+  286  cd  ..
+  287  ls
+  288  cd  t_ansible/
+  289  ls
+  290  vim  apache_setup.yml 
+  291  vim  /etc/ansible/hosts
+  292  ping  192.168.10.217
+  293  ping  127.0.0.1
+  294  vim   /etc/ansible/hosts
+  295  ssh-copy-id   127.0.0.1
+  296  ansible all -m  ping
+  297  vim apache_setup.yml 
+  298  ansible-playbook  apache_setup.yml 
+  299  ls
+  300  cp  apache_setup.yml   multi_play_setup.yml
+  301  vim  multi_play_setup.yml 
+  302  ansible-playbook   multi_play_setup.yml 
+  303  vim multi_play_setup.yml 
+  304  ls
+  305  cp  sample.yml     use_tag.yml
+  306  vim  use_tag.yml 
+  307  ansible-playbook use_tag.yml 
+  308  vim  use_tag.yml 
+  309  ansible-playbook use_tag.yml   --tags  mail 
+  310  vim  use_tag.yml 
+  311  ansible-playbook use_tag.yml   --tags  mail 
+  312  ansible-playbook use_tag.yml   --skip-tags
+  313  ansible-playbook use_tag.yml   --skip-tags  mail
+  314  history 
+  315  vim  use_tag.yml 
+  316  ansible-playbook use_tag.yml   --tags  mail 
+  317  ansible-playbook use_tag.yml   --tags  mail,new 
+  318  history 
+  319  vim  use_tag.yml 
+  320  pwd
+  321  ls
+  322  vim  task9nov_2018.txt 
+  323  git add .
+  324  git commit -m   "task done for 9th nov"
+  325  git push origin master
+  326  cp   sample.yml    var1.yml
+  327  vim  var1.yml 
+  328  vim apache_setup.yml 
+  329  vim  var1.yml 
+  330  ansible-playbook var1.yml 
+  331  vim  var1.yml 
+  332  cat  var1.yml 
+  333  ansible-playbook   -e  x=vsftpd  var1.yml   
+  334  cat  var1.yml 
+  335  ls
+  336  vim var1.yml 
+  337  vim   command_var.yml
+  338  cp  var1.yml   var2.yml
+  339  vim var2.yml 
+  340  ansible-playbook var2.yml 
+  341  vim   command_var.yml
+  342  ansible-playbook var2.yml 
+  343  vim   command_var.yml
+  344  vim  var2.
+  345  vim  var2.yml 
+  346  ansible-playbook var2.yml 
+  347  vim  var2.yml 
+  348  cat  command_var.yml 
+  349  vim  var2.yml 
+  350  cat  var1.yml 
+  351  cat  var2.yml 
+  352  vim  /etc/ansible/hosts
+  353  virt-manager 
+  354  vim /etc/sysconfig/docker
+  355  vim /etc/sysconfig/docker-storage
+  356  vim /etc/sysconfig/docker-storage-setup 
+  357  lvmconf  --disable-cluster-setup
+  358  yum install wget git  net-tools 
+  359  fdisk -l
+  360  df -h
+  361  fdisk  /dev/sda 
+  362  partprobe 
+  363  vim /etc/sysconfig/docker-storage-setup 
+  364  docker-storage-setup 
+  365  pvcreate  /dev/sda3
+  366  vgcreate  dockervg  /dev/sda3
+  367  lvcreate  --name vgpool  --size 5G --thin  /dev/sda3
+  368  lvcreate  --name vgpool  --size 5G --thin  dockervg
+  369  lvcreate --thin -V20G --name dockervl1  dockervg/vgpool
+  370  lvs
+  371  lvdisplay 
+  372  vim /etc/sysconfig/docker-storage-setup 
+  373  docker-storage-setup 
+  374  vim /etc/sysconfig/docker-storage-setup 
+  375  docker-storage-setup 
+  376  vim /etc/sysconfig/docker-storage-setup 
+  377  docker-storage-setup 
+  378  cd /etc/sysconfig/
+  379  ls
+  380  cp docker-storage  dockerstore.bak
+  381  mv  docker-storage
+  382  cat  docker-storage
+  383  rm docker-storage
+  384  docker-storage-setup 
+  385  vim docker-storage-setup 
+  386  docker-storage-setup 
+  387  lvs
+  388  vim  docker-storage-setup 
+  389  systemctl daemon-reload
+  390  systemctl restart docker
+  391  virt-manager 
+  392  cat docker-storage
+  393  cat  docker-storage-setup 
+  394  docker info
+  395  yum  install bridge-utils bind-utils
+  396  vim /etc/yum.repos.d/adhoc.repo 
+  397  yum  install  centos-release-openshift-origin37
+  398  yum  install  centos-release-openshift-origin39
+  399  yum install epel-release
+  400  yum  install  centos-release-openshift-origin39
+  401  vim /etc/yum.repos.d/adhoc.repo 
+  402  vim /etc/yum.repos.d/openshift.repo
+  403  yum  install  centos-release-openshift-origin39
+  404  yum install http://cbs.centos.org/kojifiles/packages/centos-release-paas-common/1/1.el7.centos/noarch/centos-release-paas-common-1-1.el7.centos.noarch.rpm
+  405  yumdownloader  http://cbs.centos.org/kojifiles/packages/centos-release-paas-common/1/1.el7.centos/noarch/centos-release-paas-common-1-1.el7.centos.noarch.rpm
+  406  ls
+  407  wget  http://cbs.centos.org/kojifiles/packages/centos-release-paas-common/1/1.el7.centos/noarch/centos-release-paas-common-1-1.el7.centos.noarch.rpm
+  408  ls
+  409  rpm -ivh  centos-release-paas-common-1-1.el7.centos.noarch.rpm 
+  410  vim /etc/yum.repos.d/adhoc.repo 
+  411  yumdownloader  http://cbs.centos.org/kojifiles/packages/centos-release-paas-common/1/1.el7.centos/noarch/centos-release-paas-common-1-1.el7.centos.noarch.rpm
+  412  yum install http://cbs.centos.org/kojifiles/packages/centos-release-paas-common/1/1.el7.centos/noarch/centos-release-paas-common-1-1.el7.centos.noarch.rpm
+  413  wget  ftp://192.168.10.254/pub/os-images/CentOS-7-x86_64-DVD-1804.iso
+  414  ls
+  415  virsh list
+  416  df -hT
+  417  find / -size +1G
+  418  rm  /root/Downloads/rhel-server-7.5-x86_64-dvd.iso
+  419  df -h
+  420  clear
+  421  virt-manager 
+  422  cd /etc/yum.repos.d/
+  423  ls
+  424  cat  adhoc.repo 
+  425  ls
+  426  cat openshift.repo 
+  427  ls
+  428  cat  ansible.repo 
+  429  cat adhoc.repo 
+  430  lw
+  431  ls
+  432  history 
+  433  vim /etc/sysconfig/docker-storage-setup 
+  434  virsh list
+  435  history 
+  436  virt-manager 
+  437  uname  
+  438  uname  -r
+  439  cat   /etc/redhat-release 
+  440  yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  441  yum  install  ansible
+  442  cd  /etc/yum.repos.d/
+  443  ls
+  444  rm  -rvf  epel* 
+  445  cd
+  446  yum reinstall https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  447  yum  install  ansible
+  448  cd   /etc/yum.repos.d/
+  449  ls
+  450  vim  epel.repo 
+  451  ls
+  452  vim epel-testing.repo 
+  453  ls
+  454  vim openshift.repo 
+  455  yum  install  ansible
+  456  vim openshift.repo 
+  457  yum clean all
+  458  rm  -rvf /var/cache/yum/
+  459  cd
+  460  yum  install  ansible
+  461  cd  /etc/yum.repos.d/
+  462  ls
+  463  cd
+  464  pip  install  ansible 
+  465  ansible  --version
+  466  ssh    root@192.168.10.214
+  467  ssh    root@192.168.10.231
+  468  ansible  --version
+  469  cd  /etc/ansible/
+  470  ls
+  471  rm  hosts.*   
+  472  ls
+  473  cp  hosts  hosts.bak
+  474  >hosts
+  475  vim hosts.bak 
+  476  vim ansible.cfg 
+  477  vim  hosts
+  478  cat  /etc/ansible/hosts
+  479  clear
+  480  ansible  web  -m  ping  -k 
+  481  ansible  all  -m  ping  -k 
+  482  ssh  192.168.10.231   date
+  483  ssh  192.168.10.231   cal
+  484  ssh  192.168.10.231   whoami
+  485  ssh  192.168.10.214  whoami
+  486  ssh-keygen  
+  487  ssh-copy-id     root@192.168.10.231 
+  488  ssh     root@192.168.10.231 
+  489  ssh     root@192.168.10.214
+  490  ssh-copy-id     root@192.168.10.214
+  491  ssh     root@192.168.10.214
+  492  history 
+  493  ssh     root@192.168.10.214   cal 
+  494  ssh     root@192.168.10.231   cal 
+  495  history 
+  496  ssh     root@192.168.10.231   
+  497  vim   hosts
+  498  history 
+  499  cat  /etc/ansible/hosts
+  500  ansible  all  -m  ping 
+  501  ansible  web  -m  ping 
+  502  ansible  db  -m  ping 
+  503  ansible  192.168.10.231  -m  ping 
+  504  ansible-doc  -l
+  505  ansible  192.168.10.231  -m  ping 
+  506  ansible  all  -m  ping 
+  507  ansible  all  -m  command  -a  "whoami"
+  508  ansible  all  -m  command  -a  "uptime"
+  509  cal  
+  510  cal   |   wc  -l
+  511  ansible  all  -m  command  -a  "cal  |  wc  -l"
+  512  history 
+  513  ansible  all  -m  shell  -a  "cal  |  wc  -l"
+  514  cal 
+  515  cal   |   wc  -c
+  516  ansible  all  -m  command  -a  "cal  |  wc  -c"
+  517  ansible  all  -m  shell -a  "cal  |  wc  -c"
+  518  ansible-doc  -l   |   grep -i win
+  519  vim   /tmp/myp.sh
+  520  bash  /tmp/myp.sh 
+  521  cd
+  522  ansible all -m copy -a "src=/tmp/myp.sh  dest=/root"
+  523  ansible all -m copy -a "src=/tmp/myp.sh  dest=/root mode=0755 owner=root"
+  524  ansible all -m shell -a  "/root/myp.sh"
+  525  ansible all -m command  -a  "bash /root/myp.sh"
+  526  ansible all -m command  -a  "/root/myp.sh"
+  527  history 
+  528  ansible  all  -m  user  -a  "name=mike  state=present"
+  529  ansible  all  -m  user  -a  "name=mike  state=absent"
+  530  history 
+  531  ansible-doc   user
+  532  ansible-doc  copy
+  533  history 
+  534  mkdir  /root/myplaybook
+  535  cd  /root/myplaybook/
+  536  ls
+  537  vim   day1_sample.yml
+  538  cp  day1_sample.yml  day1_sample1.yml
+  539  vim  day1_sample1.yml 
+  540  vim  -d  day1_sample.yml  day1_sample1.yml 
+  541  vim day1_sample.yml 
+  542  ansible-playbook  --syntax-check  day1_sample.yml   
+  543  ansible-playbook  day1_sample.yml  
+  544  vim day1_sample.yml 
+  545  ansible-playbook  day1_sample.yml  
+  546  vim /tmp/myp.sh 
+  547  ansible-playbook  day1_sample.yml  
+  548  vim /etc/ansible/ansible.cfg 
+  549  vim   /tmp/ok.txt
+  550  vim  day1_sample.yml 
+  551  cat  /tmp/ok.txt 
+  552  cat  /etc/ansible/hosts
+  553  ansible-playbook  day1_sample.yml  
+  554  ansible-playbook  day1_sample.yml  -i  /tmp/ok.txt 
+  555  history 
+  556  ansible-playbook  day1_sample.yml  -i  /tmp/ok.txt 
+  557  cp   day1_sample.yml   fail_sample.yml
+  558  vim fail_sample.yml 
+  559  ansible-playbook fail_sample.yml 
+  560  vim fail_sample.yml   +7
+  561  ansible-playbook fail_sample.yml 
+  562  ansible-playbook fail_sample.yml   -i  /tmp/ok.txt 
+  563  history 
+  564  ls
+  565  vim  day1_sample1.yml 
+  566  ansible-playbook  day1_sample1.yml 
+  567  cp  day1_sample.yml   apacheweb.yml
+  568  vim  apacheweb.yml 
+  569  cat apacheweb.yml 
+  570  history 
+  571  vim   runall.sh
+  572  vim  day1_sample.yml 
+  573  grep -in fork  /etc/ansible/ansible.cfg 
+  574  clear
+  575  ansible all -m ping
+  576  cd  /etc/ansible/
+  577  ls
+  578  cd playbook/
+  579  ls
+  580  cd ..
+  581  ls
+  582  cd  roles/
+  583  ls
+  584  ansible-galaxy  init  webserver
+  585  ls
+  586  tree  webserver/
+  587  yum  install  tree -y
+  588  tree  webserver/
+  589  ls  webserver/
+  590  cd webserver/
+  591  ls
+  592  vim  vars/main.yml 
+  593  cat  vars/main.yml 
+  594  cd  files/
+  595  ls
+  596  vim  index.html 
+  597  vim  index.php
+  598  ls
+  599  cd ..
+  600  ls
+  601  vim  tasks/main.yml 
+  602  vim handlers/main.yml 
+  603  ls
+  604  cd ..
+  605  ls
+  606  ansible-galaxy  init  mydb
+  607  ls
+  608  cd ..
+  609  ls
+  610  cd  playbook/
+  611  vim   lamp.yml
+  612  ls ../roles/
+  613  vim   lamp.yml
+  614  cd ../roles/
+  615  ansible-galaxy  s_check
+  616  ansible-galaxy  init  s_check
+  617  ls
+  618  cd s_check/
+  619  ls
+  620  vim  tasks/main.yml 
+  621  yum  install firewalld
+  622  vim  tasks/main.yml 
+  623  cd ..
+  624  ls
+  625  cd ../playbook/
+  626  ls
+  627  ansible-playbook  lamp.yml  
+  628  vim lamp.yml 
+  629  ansible-playbook  lamp.yml  
+  630  ls
+  631  cd  ../roles/
+  632  ls
+  633  cd webserver/
+  634  ls
+  635  vim  vars/main.yml 
+  636  cd  ..
+  637  ls
+  638  cd ..
+  639  ls
+  640  vim playbook/lamp.yml 
+  641  ansible-playbook  playbook/lamp.yml 
+  642  ssh   192.168.10.231
+  643  ls
+  644  cd roles/
+  645  ls
+  646  vim webserver/vars/main.yml 
+  647  vim  webserver/tasks/main.yml 
+  648  ansible-playbook  ../playbook/lamp.yml 
+  649  vim  webserver/tasks/main.yml 
+  650  ansible-playbook  ../playbook/lamp.yml 
+  651  vim  webserver/handlers/main.yml 
+  652  ansible-playbook  ../playbook/lamp.yml 
+  653  history 
+  654  ls 
+  655  cd mydb/
+  656  ls
+  657  cd ..
+  658  ls
+  659  cd  webserver/
+  660  ls
+  661  vim  tasks/main.yml 
+  662  vim handlers/main.yml 
+  663  ls
+  664  vim  tasks/main.yml 
+  665  cd ..
+  666  ls
+  667  cd ..
+  668  ls
+  669  cd playbook/
+  670  ls
+  671  ansible-playbook  -v  lamp.yml 
+  672  cd ../roles/
+  673  ls
+  674  cd webserver/
+  675  ls
+  676  vim  tasks/main.yml 
+  677  ansible-playbook  /etc/ansible/playbook/lamp.yml 
+  678  vim  tasks/main.yml 
+  679  ansible-playbook  /etc/ansible/playbook/lamp.yml 
+  680  vim  tasks/main.yml 
+  681  ansible-playbook  /etc/ansible/playbook/lamp.yml 
+  682  ssh   192.168.10.231
+  683  ls
+  684  cd ..
+  685  ls
+  686  cd mydb/
+  687  ls
+  688  vim  vars/main.yml 
+  689  vim  tasks/main.yml 
+  690  vim  vars/main.yml 
+  691  vim  tasks/main.yml 
+  692  vim /etc/ansible/playbook/lamp.yml 
+  693  ansible-playbook  /etc/ansible/playbook/lamp.yml 
+  694  vim  vars/main.yml 
+  695  vim  tasks/main.yml 
+  696  vim  vars/main.yml 
+  697  ansible-playbook  /etc/ansible/playbook/lamp.yml 
+  698  vim  vars/main.yml 
+  699  vim  tasks/main.yml 
+  700  ansible-playbook  /etc/ansible/playbook/lamp.yml 
+  701  vim  tasks/main.yml 
+  702  ansible-playbook  /etc/ansible/playbook/lamp.yml 
+  703  vim  tasks/main.yml 
+  704  ansible-playbook  /etc/ansible/playbook/lamp.yml 
+  705  ssh   192.168.10.231
+  706  ls
+  707  cd ..
+  708  ls
+  709  tree  mydb/
+  710  tree  
+  711  ls
+  712  vim  /etc/ansible/playbook/lamp.yml 
+  713  pwd
+  714  ls
+  715  ansible-galaxy install geerlingguy.nginx
+  716  ls
+  717  cd  /root/.ansible/roles/
+  718  ls
+  719  cp  -rvf  geerlingguy.nginx/   /etc/ansible/roles/nginx
+  720  cd  /etc/ansible/roles/
+  721  ls
+  722  tree nginx/
+  723  history 
+  724  clear
+  725  history 
+  726  ansible-doc -l     |  grep -i git
+  727  clear
+  728  useradd   harry
+  729  ssh   192.168.10.231
+  730  su  - harry 
+  731  ssh   192.168.10.231
+  732  su - harry 
+  733  rhvmcreate1
+  734  rhvmcreate2
+  735  rhvmstart1
+  736  rhvmstart2
+  737  virsh list
+  738  yum install ansible
+  739  wget ftp://192.168.10.254/pub/hadoop2dnd.qcow2
+  740  ansible all -m ping 
+  741  whoami
+  742  ps  -e   |   grep  yum
+  743  cd   /etc/ansible/
+  744  ls
+  745  cd   /etc/ansible/
+  746  ls
+  747  vim  hosts 
+  748  ifconfig  
+  749  history 
+  750  cat  hosts
+  751  [cent]
+  752  192.168.10.231
+  753  [ub]
+  754  192.168.10.214
+  755  whoami
+  756  cat  /etc/ansible/hosts
+  757  ansible-doc  -l  
+  758  ansible   --version
+  759  ansible-doc  -l  
+  760  ansible-doc  user
+  761  cat  /etc/ansible/hosts
+  762  ansible  cent  -m  ping 
+  763  pwd
+  764  mkdir  playbooks
+  765  cd  playbooks
+  766  vim  sample.yml 
+  767  cat  sample.yml 
+  768  ansible-playbook  sample.yml 
+  769  cat  sample.yml 
+  770  git clone  https://github.com/redashu/CGI
+  771  cp sample.yml   CGI/
+  772  cd  CGI/
+  773  git add .
+  774  git commit -m  "chekc"
+  775  git push origin master
+  776  cd ..
+  777  ansible-playbook  sample.yml 
+  778* 
+  779  vim    /etc/ansible/ansible.cfg  
+  780  grep  -i conne  /etc/ansible/ansible.cfg  
+  781  vim  /etc/ansible/ansible.cfg 
+  782  pwd
+  783  ls
+  784  cp  sample.yml    webserver.yml
+  785  vim  webserver.yml 
+  786  ansible-playbook --syntax-check webserver.yml 
+  787  cat  webserver.yml 
+  788  ansible-playbook --syntax-check webserver.yml 
+  789  ansible-playbook  webserver.yml 
+  790  cat  webserver.yml 
+  791  echo   hello ansible     >/root/index.html 
+  792  ansible-playbook  webserver.yml 
+  793  curl   http://192.168.10.231             : ok=5    changed=3    unreachable=0    failed=0
+  794  curl   http://192.168.10.231 
+  795  cat  webserver.
+  796  cat  webserver.yml 
+  797  curl   http://192.168.10.231 
+  798  ansible-playbook  webserver.yml 
+  799  echo  hello ashutoshh  >>/root/index.html 
+  800  cat  /root/index.html 
+  801  ansible-playbook  webserver.yml 
+  802  curl   http://192.168.10.231 
+  803  history 
+  804  cat  webserver.yml 
+  805  cp  webserver.yml   CGI/
+  806  cd  CGI/
+  807  git add .
+  808  git commit -m  "update"
+  809  git push origin master
+  810  history 
+  811  ls
+  812  cp  webserver.yml   newweb.yml
+  813  vim newweb.yml 
+  814  ansible-playbook --syntax-check  newweb.yml 
+  815  ansible-playbook  newweb.yml 
+  816  curl  http://192.168.10.231
+  817  curl  http://192.168.10.231/a.html
+  818  cat  newweb.yml 
+  819  vim webserver.yml 
+  820  ansible-playbook webserver.yml 
+  821  cat webserver.yml 
+  822  cat newweb.yml 
+  823  ansible-doc  copy
+  824  ansible-doc  get_url
+  825  history 
+  826  cat newweb.yml 
+  827  ls
+  828  git  add .
+  829  git commit -m  "new web"
+  830  git push origin master
+  831  ansible-playbook  newweb.yml 
+  832  ansible-playbook  --step  newweb.yml 
+  833  cat  newweb.yml 
+  834  history 
+  835  vim  webserver.yml 
+  836  echo  hiiii  >>/root/index.html 
+  837  ansible-playbook  -C  webserver.yml  
+  838  ansible-playbook  --check  webserver.yml  
+  839  ansible-playbook   webserver.yml  
+  840  ls
+  841  cp  sample.yml   handle1.yml 
+  842  vim  handle1.yml  
+  843  ansible-playbook handle1.yml 
+  844  vim  handle1.yml  
+  845  ansible-playbook handle1.yml 
+  846  vim  handle1.yml  
+  847  ansible-doc  lineinfile
+  848  cat  handle1.yml 
+  849  cp sample.yml   handle2.yml
+  850  vim  handle2.yml 
+  851  ansible-playbook handle2.yml 
+  852  vim  handle2.yml 
+  853  ansible-playbook handle2.yml 
+  854  vim  handle2.yml 
+  855  ls
+  856  cat handle1.yml 
+  857  vim  handle1.yml 
+  858  ansible-playbook handle2.yml 
+  859  vim  handle1.yml 
+  860  ls
+  861  cp  webserver.yml   tag1.yml
+  862  vim  tag1.yml 
+  863  ansible-playbook   tag1.yml 
+  864  vim  tag1.yml 
+  865  ansible-playbook   tag1.yml   --tags myname
+  866  ansible-playbook   tag1.yml   --skip-tags  myname
+  867  cat  tag1.yml 
+  868  cat handle1.yml 
+  869  cat  tag1.yml 
+  870  ansible-playbook   tag1.yml   --tags myname
+  871  vim tag1.yml 
+  872  ansible-playbook   tag1.yml   --tags myname
+  873  ansible-playbook   tag1.yml   --tags myname,send
+  874  vim tag1.yml 
+  875  ansible-playbook   tag1.yml   --tags myname
+  876  ls
+  877  git  add .
+  878  git commit -m "update"
+  879  git push origin master
+  880  vim tag1.yml 
+  881  ls
+  882  vim tag1.yml 
+  883  ls
+  884  cp   webserver.yml       webvar.yml
+  885  vim  webvar.yml  
+  886  ansible-playbook  webvar.yml 
+  887  vim  webvar.yml  
+  888  ansible-playbook  webvar.yml 
+  889  ansible-playbook -e   x=vsftpd  webvar.yml 
+  890  history 
+  891  cat   webvar.yml 
+  892  vim  var1.yml
+  893  cp  sample.yml  usevar.yml
+  894  vim  usevar.yml 
+  895  cat  usevar.yml 
+  896  cat  var1.yml 
+  897  vim  usevar.yml 
+  898  cat  var1.yml 
+  899  cat  usevar.yml 
+  900  vim  usevar.yml 
+  901  ansible-playbook usevar.yml 
+  902  vim  usevar.yml 
+  903  cat  var1.yml 
+  904  vim  var1.yml 
+  905  vim  usevar.yml 
+  906  ansible-playbook usevar.yml 
+  907  vim  usevar.yml 
+  908  vim  var1.yml 
+  909  ansible-playbook usevar.yml 
+  910  vim  var1.yml 
+  911  vim  usevar.yml 
+  912  ansible-playbook usevar.yml 
+  913  vim  var1.yml 
+  914  ansible-playbook usevar.yml 
+  915  vim  var1.yml 
+  916  vim usevar.yml 
+  917  cat  var1.yml 
+  918  cat   usevar.yml 
+  919  vim usevar.yml 
+  920  ansible-playbook usevar.yml 
+  921  vim usevar.yml 
+  922  ansible-playbook usevar.yml 
+  923  vim  var1.yml 
+  924  vim usevar.yml 
+  925  ansible-playbook usevar.yml 
+  926  vim usevar.yml 
+  927  ansible-playbook usevar.yml 
+  928  vim usevar.yml 
+  929  ansible-playbook usevar.yml 
+  930  vim usevar.yml 
+  931  ansible-playbook usevar.yml 
+  932  vim usevar.yml 
+  933  cat  var1.yml 
+  934  cat  usevar.
+  935  cat  usevar.yml 
+  936  history    >history.txt

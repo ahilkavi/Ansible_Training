@@ -1,0 +1,14 @@
+---
+ - hosts: cent
+   tasks: 
+    - name: installing  a software with out yum |  apt module
+      get_url: url=ftp://192.168.10.254/pub/ashutoshh/jdk-8u121-linux-x64.rpm  dest=/tmp/aa.rpm 
+      register: out
+
+    - name: showing the process
+      debug: var=out
+
+    - name:  using command module to install software
+      command:  rpm  -ivh  /tmp/aa.rpm  
+
+

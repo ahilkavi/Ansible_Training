@@ -1,0 +1,18 @@
+---
+ - hosts: cent
+   tasks: 
+    - name: hello world
+      debug: msg="Hello world with ANSIBLEi iii"
+      notify:
+       - x
+    - name: ok
+      debug: msg="fine"
+
+   handlers:
+    - name: x
+      debug: msg="HELLO ansible is cool"
+
+ 
+
+
+

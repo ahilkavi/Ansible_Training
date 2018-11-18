@@ -1,0 +1,23 @@
+---
+ - hosts: all
+   tasks: 
+    - name: installing  web server on  redhat based machines 
+      yum: name=httpd state=installed 
+      when: ( ansible_distribution == "RedHat" and ansible_distribution_major_version == 7 )
+      register: ok
+
+    - name: service web server on  redhat based machines 
+      service: name=httpd state=started
+      when: ansible_distribution == "RedHat" 
+
+
+    - name: installing  web server on ubuntu based machines
+      apt: name=apache2 state=installed 
+      when: ansible_distribution == "Ubuntu" 
+
+    - name: starting  web server on ubuntu based machines
+      service: name=apache2 state=started
+      when: ansible_distribution == "Ubuntu" 
+
+
+

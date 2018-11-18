@@ -1,0 +1,29 @@
+---
+ - hosts: cent
+   ignore_errors: yes
+   tasks: 
+    - name: running this command 
+      command:  dateeeeeeeee
+
+    - name: showing message 
+      debug: msg="plz execute me plz again"
+
+    - name: installing  tt
+      yum: name=tt
+      register: t_out
+
+    - name: starting service
+      service: name=httpd
+      register: h_out
+
+    - name: print if installation is failed 
+      debug: msg="tt package is not installed"
+      when: t_out.rc  != 0 
+
+    - name: print if service not started
+      debug: msg="httpd is not stared"
+      when: h_out.rc != 0 
+
+
+   
+

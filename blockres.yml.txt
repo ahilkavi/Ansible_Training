@@ -1,0 +1,15 @@
+---
+ - hosts: all
+   tasks: 
+    - name: this is my fist block 
+      block: 
+       - name: installing  web server on  redhat based machines 
+         yum: name=httpd  state=installed 
+      rescue:
+       - name: installing  whatever version it 
+         debug: msg="now installing httpd default"
+       - name: install
+         yum: name=httpd state=installed 
+
+
+

@@ -1,0 +1,22 @@
+---
+ - hosts: cent
+   tasks: 
+    - name: running date command 
+      command:  date
+      register: out
+
+    - name: showing output of  out
+      debug: var=out
+
+    - name: using stdout from above 
+      debug: msg="my current date output is   {{ out.stdout }}"
+ 
+    - name: redirecting to web server 
+      copy: content="{{ out.stdout }}"  dest=/var/www/html/time.html 
+
+
+       
+
+
+
+
